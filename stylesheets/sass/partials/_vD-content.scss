@@ -1,0 +1,336 @@
+/*--vD-content-------------------------------------------------*/
+
+/*--BACKGROUND--*/
+//html { 
+//  background: url(../images/bg/808817-free-calm-water-wallpaper.jpg) no-repeat center center fixed; 
+//  -webkit-background-size: cover;
+//  -moz-background-size: cover;
+//  -o-background-size: cover;
+//  background-size: cover;
+//}
+
+
+#logoPlacer {
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0 1em .5em 0;
+
+}
+
+logo {
+    
+    width: 200px;
+    height: 200px;
+    
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    
+    background-image: url(../images/logo/vD-Logo-0217-01.svg);
+    background-size: contain;
+    
+	position: relative;
+
+	display: block;
+    
+	align-content: center;
+	text-indent: -1000px;
+	overflow: hidden;
+    
+	  -webkit-transition: all .5s ease-in-out;
+	  -moz-transition: all .5s ease-in-out;
+	  -o-transition: all .5s ease-in-out;
+	  transition: all .5s ease-in-out;
+    
+    
+    @media screen and (max-width: 376px) {
+    
+        width: 150px;
+        height: 150px;
+    
+    } 
+    
+    @media screen and (max-height: 320px){
+        
+        width: 150px;
+        height: 150px;
+    }
+    
+    
+	}
+
+
+#intro {
+    height: 100vh;
+    text-align: center;
+    background-image: url(../../../images/texture-black.png) repeat;
+    
+}
+
+#slick {
+
+    position: relative;
+    background-position: center;
+    top: 30%;
+
+    @media screen and (max-height: 414px){
+    
+    top: 10%;    
+    
+    }
+    
+    
+
+
+h2 {
+
+   text-indent: 0;
+    color: #2e2d2d;
+    margin-top: 1em;
+    line-height: .8em;
+    margin-bottom: .8em;
+
+    
+    span { font-size: 0.5em; color: gray; }
+    
+}
+    
+}
+
+
+
+section {
+    
+    font-size: 2em;
+    
+    h2 {
+
+    line-height: .8em;
+    margin-bottom: .8em;
+    
+    span { font-size: 0.5em; color: gray; }
+    
+}
+
+    p {font-size: 1em; line-height: 1.2em; color: gray;}    
+
+    li { font-size: 3em; line-height: 1em; color: gray; list-style-type: circle; }
+
+    em {
+
+    font-style: normal;
+    font-weight: bold;
+
+    }
+    
+    @media screen and (max-width: 414px){
+    
+        li { font-size: 2em;}
+    
+    
+    }
+    
+    
+}
+
+
+/*-- IMAGE LETTERS --*/
+
+#firstLetter {margin-right: 0; margin-left: auto; float: right; height: 500px; width: 384;}
+@media screen and (max-width: 360){}
+
+.featLetterDescription { display: none; background-color: black; opacity: 0.5; height: 56px;  color: white; padding: 2em;}
+
+#secondLetter {height: 500px; }
+#secondLetterBg {
+
+    background: url(../../../images/bg/vD-Slick/upFoward_arrow.png) no-repeat;
+    background-size: contain;  
+    background-position: right 10px;
+    height: 500px;
+
+}
+
+#thirdLetter {height: 500px; width: 317px; margin-right: 0; float: right;}
+#thirdLetterBg {
+//    background: url(../../../images/bg/vD-Slick/mediaChannels.png) no-repeat; 
+    background-size: contain;   
+    background-position: left;
+    height: 500px;
+}
+
+#fourthLetter {height: 500px; width: 396px; margin:0 auto; display: block;}
+
+#fifthLetter {height: 500px; width: 246px; float:right;}
+
+@media screen and (max-width: 414px){
+
+    #firstLetter { height: 300px;}
+    #secondLetter { height: 300px; }
+    #thirdLetter { height: 300px; width: 190px;}
+    #thirdLetterBg {height: 300px; }
+    #fourthLetter { height: 300px; width: 235px;}
+    #fifthLetter { height: 300px; width: 148px}
+
+}
+
+@media screen and (max-height: 360px){
+    #firstLetter { height: 180px;}
+    #secondLetter { height: 180px; }
+    #thirdLetter { height: 180px; width: auto;}
+    #thirdLetterBg {height: 180px; }
+    #fourthLetter { height: 180px; width: auto;}
+    #fifthLetter { height: 180px; width: auto;}
+}
+
+
+
+footer {
+
+    height: 250px;
+    background-color: white !important;
+    
+
+}
+	
+//.content {
+//	
+//	margin: auto;
+//	top: 60px; left: 0; bottom: 0; right: 0;
+//    background-color: beige;
+//    color: gray;
+//    border: solid red;
+//    
+//
+//}
+
+//@media screen and (max-width: 600px) {
+//
+//
+//}
+//
+//.parallax-window {
+//
+//    min-height: 400px;
+//    background: transparent;
+//
+//}
+//
+//section {
+//  padding: 25px 0 35px;
+//  background: #fff;
+//}
+//
+//
+//.parallax-container {
+//    min-height: 500px;
+//    width: 100%;
+//    
+//}
+
+/*--END vD-content-------------------------------------------------*/
+
+
+#ux_vision {
+    border: 3 solid black;
+}
+
+#ux {
+    
+}
+
+#dev {
+    
+    p {font-size: 2em;}
+    
+    @media screen and (max-height: 736px){
+        p {font-size: 1em;}
+        
+    }
+}
+
+.twitter {
+    background-image: url(/images/social-icons/contact-twitter.png);
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    text-indent: -1000px;
+    overflow: hidden;
+}
+
+div#social {
+    
+    position: relative;
+    top: 30%;
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+
+    
+    ul {text-align: center;
+        li {float: left; margin-right: 10px; width: 60px; height: 60px; display:block; opacity: .5;}
+        li:hover {    cursor: hand; cursor: pointer; opacity: 1.0;}
+        a.divLink {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    /* Makes sure the link doesn't get underlined */
+    z-index: 10;
+    /* raises anchor tag above everything else in div */
+    background-color: white;
+    /*workaround to make clickable in IE */
+    opacity: 0;
+    /*workaround to make clickable in IE */
+    filter: alpha(opacity=0);
+    /*workaround to make clickable in IE */
+}
+    }
+}
+
+.facebook {
+        background-image: url(/images/social-icons/contact-facebook.png);
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    text-indent: -1000px;
+    overflow: hidden;
+}
+
+.behance {    
+    
+    background-image: url(/images/social-icons/contact-behance.png);
+    background-size: contain;
+    
+
+
+}
+
+.vbutton {
+
+    width: 60px;
+    height: 60px;
+    display: block;
+
+    text-indent: -1000px;
+    overflow: hidden;
+
+}
+
+#about {
+    
+    p {font-size: 2em; text-align: center;}
+    
+    @media screen and (max-height: 736px){
+        p {font-size: 1em;}
+        
+    }
+}
+

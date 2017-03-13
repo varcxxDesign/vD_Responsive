@@ -1,0 +1,132 @@
+/*--vD-content-------------------------------------------------*/
+/*--BACKGROUND--*/
+#logoPlacer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0 1em .5em 0; }
+
+logo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  display: block;
+  background: url(../../../images/logo/vD-logo-white.png) no-repeat;
+  background-size: 100%;
+  width: 120px;
+  height: 60px;
+  align-content: center;
+  text-indent: -1000px;
+  overflow: hidden;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out; }
+
+section p {
+  font-size: 3em;
+  line-height: 1em;
+  color: gray; }
+section li {
+  font-size: 3em;
+  line-height: 1em; }
+section em {
+  font-style: normal;
+  font-weight: bold; }
+
+footer {
+  height: 250px;
+  background-color: white !important; }
+
+/*--END vD-content-------------------------------------------------*/
+/************************/
+/*       WRAPPER        */
+/************************/
+/************************/
+/*       VALIDATION     */
+/************************/
+.form-errors {
+  font-weight: bold;
+  color: #bd000b; }
+
+/* asterisk */
+.form-field-required {
+  color: #bd000b; }
+
+/* applies to specific fiels with errors */
+.form-field-error {
+  border: 2px solid #bd000b; }
+
+/************************/
+/*        LABELS        */
+/************************/
+/************************/
+/*        FIELDS        */
+/************************/
+.form-field-text,
+.form-field-textarea {
+  outline: none;
+  border: 2px solid #ccc;
+  padding: 4px;
+  margin: 2px 0;
+  font-size: 14px; }
+
+/* around each checkbox, not entire set */
+.form-field-submit, .sending {
+  display: inline-block;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1em;
+  font-family: sans-serif;
+  padding: 10px 15px;
+  margin: 2px 0;
+  border: 0; }
+
+.form-field-submit:hover, .sending:hover {
+  cursor: pointer; }
+
+.sending {
+  background: #329b5b; }
+
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, img, ins, kbd, q, s, samp, small, strike, tt, var,
+u, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+a:link, a:visited {
+  text-decoration: none;
+  color: inherit; }
+
+table {
+  border-spacing: 0; }
+
+.clear {
+  clear: both; }
+
+/*# sourceMappingURL=main.css.map */

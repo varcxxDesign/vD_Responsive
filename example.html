@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset='utf-8'> 
+<head>
+<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- META ===================================================== --> 
+    <title>Responsive Website Template</title> 
+    <meta name="description" content="ADD DESCRIPTION HERE"> 
+    <meta name="keywords" content="ADD KEYWORDS HERE"> 
+
+<!-- Favicon  ========================================== --> 
+	<!-- Standard iPhone --> 
+	<link rel="apple-touch-icon" sizes="57x57" href="touch-icon-iphone-114.png" />
+	<!-- Retina iPhone --> 
+	<link rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone-114.png" />
+	<!-- Standard iPad --> 
+	<link rel="apple-touch-icon" sizes="72x72" href="touch-icon-ipad-144.png" />
+	<!-- Retina iPad --> 
+	<link rel="apple-touch-icon" sizes="144x144" href="touch-icon-ipad-144.png" />
+
+	<link rel="icon" href="favicon.ico">
+
+<!-- CSS ====================================================== --> 
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+</head>
+<body>
+    
+	<nav class="main-nav">
+    <ul>
+        <li><a href="#">Level One A</a>
+            <ul>
+                <li><a href="#">Level Two A</a></li>
+                <li><a href="#">Level Two B</a></li>
+                <li><a href="#">Level Two C</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Level One B</a>
+            <ul>
+                <li><a href="#">Level Two A</a></li>
+                <li><a href="#">Level Two B</a></li>
+                <li><a href="#">Level Two C</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Level One C</a>
+            <ul>
+                <li><a href="#">Level Two A</a></li>
+                <li><a href="#">Level Two B</a></li>
+                <li><a href="#">Level Two C</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Level One D</a>
+            <ul>
+                <li><a href="#">Level Two A</a></li>
+                <li><a href="#">Level Two B</a></li>
+                <li><a href="#">Level Two C</a>
+                    <ul>
+                        <li><a href="#">Level Three A</a></li>
+                        <li><a href="#">Level Three B</a></li>
+                        <li><a href="#">Level Three C</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<div class="content">
+    <h1>Responsive Design Template</h1>
+    
+    I built this tool for my own front-end development projects. My goal was to include everything I need, and strip out anything I don't. This provides a lightweight starting point for web development. <br>
+    <i>- <a href="http://www.kthornbloom.com" target="_blank">Kevin Thornbloom</a></i>
+    <hr>
+    <h2>Why is it awesome?</h2>
+
+    <ol>
+       <li>Now with SCSS</li>
+       <li>Add nested UL's to create viewport aware, infinite level drop-downs.</li>
+       <li>Automatically creates off-canvas mobile nav for small screens</li>
+       <li><i class="fa fa-flag"></i> Includes <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome 4</a></li>
+       <li>Ready for many various responsive element types</li>
+       <li>The mobile navigation animation uses CSS3 so it's silky smooth.</li>
+       <li>Unlike other templates/boilerplates, it doesn't force you to use any particular layout method besides an unordered list for the navigation. Code how you want to!</li>
+       <li>Free for personal, professional, or other projects. Just don't attempt to resell this as-is</li>
+    </ol>
+
+    <hr>
+    <h2>How do I use it?</h2>
+
+    <ol>
+       <li>Download the files from <a href="https://github.com/kthornbloom/Responsive_Template">Github</a></li>
+       <li>Use nested UL's within the main-nav area to build your navigation, but besides that- go nuts!</li>
+       <li>You can use a class of "content" for the container holding your main content to take advantage of some pre-written CSS hooks.</li>
+       <li><i>Note: Some elements and CSS rules are for my own personal set-up.</i></li>
+    </ol>
+<hr>
+
+    <h2>Examples of responsive elements</h2>
+    <hr>
+    <h3>Page Images</h3>
+    <img src="images/test.jpg" class="float-left"/>
+    I personally use classes of ".float-right" and ".float-left" for my page images. These will be placed as they're named, but will resize down smaller if needed.
+    <div class="clear"></div>
+   
+    <hr>
+    <h3>Sample Social Media Icons</h3>
+    <div class="soc">
+        <a href="#"><i class="fa fa-facebook soc-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter soc-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin soc-linkedin"></i></a>
+        <a href="#"><i class="fa fa-tumblr soc-tumblr"></i></a>
+        <a href="#"><i class="fa fa-instagram soc-instagram"></i></a>
+        <a href="#"><i class="fa fa-google-plus soc-google-plus"></i></a>
+        <a href="#"><i class="fa fa-pinterest soc-pinterest"></i></a>
+        <a href="#"><i class="fa fa-youtube soc-youtube"></i></a>        
+        <a href="#"><i class="fa fa-flickr soc-flickr"></i></a>
+    </div>
+    <hr>
+    <h3>Need Responsive jQuery Tools?</h3>
+        I've got several free ones here: <a href="http://kthornbloom.com">kthornbloom.com</a>
+    <div class="clear"></div>
+</div>
+
+<!-- JS ======================================================= --> 
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/corefunctions.js"></script>
+<script type="text/javascript" src="js/jquery.velocity.min.js"></script>
+<!-- add media queries for IE 8 -->
+<!--[if lte IE 8]>
+<script type="text/javascript" src="js/respond.min.js"></script>
+<![endif]-->
+</body>
+</html>

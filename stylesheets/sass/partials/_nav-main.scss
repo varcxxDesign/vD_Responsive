@@ -1,0 +1,89 @@
+
+/*
+.88b  d88.  .d8b.  d888888b d8b   db      d8b   db  .d8b.  db    db 
+88'YbdP`88 d8' `8b   `88'   888o  88      888o  88 d8' `8b 88    88 
+88  88  88 88ooo88    88    88V8o 88      88V8o 88 88ooo88 Y8    8P 
+88  88  88 88~~~88    88    88 V8o88      88 V8o88 88~~~88 `8b  d8' 
+88  88  88 88   88   .88.   88  V888      88  V888 88   88  `8bd8'  
+YP  YP  YP YP   YP Y888888P VP   V8P      VP   V8P YP   YP    YP    
+*/
+
+.arrow {
+	font-size: 7px;
+	top: -2px;
+	position: relative;
+}
+
+.main-nav {
+    opacity: 0.75;
+    display: none; /*COMENTED OUT UNTIL PAGES ARE SET */
+}
+
+.main-nav {
+	width: 100%;
+    position: absolute;
+	background:#333;
+	margin:0 auto;
+    
+	li {position:relative;}
+
+	/* Main Links */
+	> ul > li > a {
+		display:inline-block;
+		color:#fff;
+		text-decoration: none;
+		padding:10px;
+	}
+	/* Hover or has open dropdown */
+	> ul > li a:hover,
+	.nav-parent {
+		background:rgba(0,0,0,.2)!important;
+	}
+	> ul > li {
+		display:inline-block;
+		position:relative;
+	}
+	/* First level dropdown container*/
+	> ul > li > ul {
+		position:absolute;
+		left:0;    
+		background:#a5acb5;
+		display: none;
+	}
+	/* First level dropdown link */
+	> ul > li > ul > li > a {
+		min-width:150px;
+		display:block;
+		padding:10px 5px;
+		border-bottom: 1px solid #fff;
+		font-size:.9em;
+		text-decoration:none; 
+		color:#fff;
+	}
+	/* Any sub-level dropdown containers*/
+	> ul > li > ul ul {
+		position: absolute;
+		left: 100%;
+		top: 0;    
+		background: #bbc3ce;
+		display: none;
+	}
+	/* If off-screen, reposition */
+	.nav-reposition {
+		left:auto!important;
+		right:0;
+	}
+	> ul > li > ul .nav-reposition{
+	right:100%;
+	}
+	/* Any sub-level dropdown links */
+	> ul > li > ul > li > ul a {
+		display:block;
+		min-width:150px;
+		padding:10px 5px;
+		border-bottom: 1px solid #fff;
+		font-size:.9em;
+		text-decoration:none; 
+		color:#fff;
+	}
+}

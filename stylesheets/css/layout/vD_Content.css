@@ -1,0 +1,57 @@
+/*--BACKGROUND--*/
+html { 
+  background: url(../images/bg/808817-free-calm-water-wallpaper.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#logoPlacer {
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0 1em .5em 0;
+
+}
+
+logo {
+	position: relative;
+	right: 0;
+	bottom: 0;
+	
+	display: block;
+
+	background: url(../images/logo/vD-logo-white.png) no-repeat;
+    background-size: 100%;
+	width: 120px;
+    height: 60px;
+    
+	align-content: center;
+	text-indent: -1000px;
+	overflow: hidden;
+	
+	
+	  -webkit-transition: all .5s ease-in-out;
+	  -moz-transition: all .5s ease-in-out;
+	  -o-transition: all .5s ease-in-out;
+	  transition: all .5s ease-in-out;
+	}
+	
+.content {
+	
+	margin: auto;
+	top: 60px; left: 0; bottom: 0; right: 0;
+    
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+}
+
+
+
+
